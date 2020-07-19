@@ -1,8 +1,8 @@
 import fbTDD
 
 for i in range(1,101):
-    isPrime = fbTDD.isPrimeNumber(i)
-    isfissbuzz = fbTDD.fizzbuzz(i)
-    print(isfissbuzz + " " + isPrime)
+    isPrime = fbTDD.is_prime_number(i)
+    is_fizz_buzz = fbTDD.fizz_buzz(i)
+    print(is_fizz_buzz + " " + isPrime)
 
 

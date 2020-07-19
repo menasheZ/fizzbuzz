@@ -1,21 +1,22 @@
 
-def isPrimeNumber(num):
-    isPrime = ""
+def is_prime_number(num):
+    is_prime = ""
     if num > 1:
         for iPrime in range(2, round(num // 2)):
             if (num % iPrime) == 0:
-                isPrime = ""
+                is_prime = ""
                 break
         else:
-            isPrime = "Prime"
-    return isPrime
+            is_prime = "Prime"
+    return is_prime
 
-def fizzbuzz(num):
+
+def fizz_buzz(num):
     if num % 15 == 0:
-        return ("FizzBuzz")
+        return "FizzBuzz"
     elif num % 5 == 0:
-        return("Fizz")
+        return "Fizz"
     elif num % 3 == 0:
-        return("Buzz")
+        return "Buzz"
     else:
-        return(str(num))
+        return str(num)
