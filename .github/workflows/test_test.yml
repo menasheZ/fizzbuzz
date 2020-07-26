@@ -30,4 +30,6 @@ jobs:
     
     # run Tests
     - name: Run Tests
-      run: pytest
+      run: |
+        pip install pytest
+        pytest
