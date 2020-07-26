@@ -31,5 +31,7 @@ jobs:
     # run Tests
     - name: Run Tests
       run: |
+        apk add --no-cache bash
+        pip install --upgrade pip
         pip install pytest
-        pytest
+        
